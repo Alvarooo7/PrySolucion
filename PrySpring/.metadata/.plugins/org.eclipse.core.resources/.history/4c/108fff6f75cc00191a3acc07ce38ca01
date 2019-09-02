@@ -1,0 +1,17 @@
+package com.proyecto.ejemplo01;
+
+import javax.persistence.*;
+
+
+@Entity
+@Table(name="persona")
+public class Persona {
+	@Id
+	@Column
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	@Column
+	private String name;
+	@Column
+	private String apellidos;
+}

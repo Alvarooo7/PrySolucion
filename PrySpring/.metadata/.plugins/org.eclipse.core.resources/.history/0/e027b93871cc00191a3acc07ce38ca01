@@ -1,0 +1,5 @@
+package com.proyecto.ejemplo01;
+
+public interface PersonaRepositorio {
+
+}
